@@ -2,7 +2,7 @@
 const OPT = {
     "user" : "admin", //后台密码请修改
     "password" : "G0516Minecraft", //后台密码
-    "siteDomain" : "blog.gezhong.vip",// 域名(不带https 也不带/)
+    "siteDomain" : "blog.G0516.us.kg",// 域名(不带https 也不带/)
     "siteName" : "我的世界 服务器 使用指南",//博客名称
     "siteDescription":"我的世界 服务器 使用指南",//博客描述
     "keyWords":"MC,server,Minecraft,G0516,Game",//关键字
