@@ -6,7 +6,7 @@ const OPT = {
     "siteName" : "我的世界 服务器 使用指南",//博客名称
     "siteDescription":"我的世界 服务器 使用指南",//博客描述
     "keyWords":"MC,server,Minecraft,G0516,Game",//关键字
-    "cacheZoneId":"cc868e8edce4027ad4a735741111111",//清理缓存用 cf区域 ID
+    "cacheZoneId":"059d65d4f71810aa28d32f1b59662c4e",//清理缓存用 cf区域 ID
     "cacheToken":"-cZjD0tbI-XH2kblZVSTTyAzQUYVrAY_2MC5zgxn",//清理缓存用 cf API token
 	
     "pageSize" : 10,//每页文章数
