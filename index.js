@@ -1,18 +1,18 @@
 'use strict';
 const OPT = {
     "user" : "admin", //后台密码请修改
-    "password" : "yourSelfPwd", //后台密码
+    "password" : "G0516Minecraft", //后台密码
     "siteDomain" : "blog.gezhong.vip",// 域名(不带https 也不带/)
-    "siteName" : "CF workers blog",//博客名称
-    "siteDescription":"A Blog Powered By Cloudflare Workers and KV",//博客描述
-    "keyWords":"cloudflare,KV,workers,blog",//关键字
+    "siteName" : "我的世界 服务器 使用指南",//博客名称
+    "siteDescription":"我的世界 服务器 使用指南",//博客描述
+    "keyWords":"MC,server,Minecraft,G0516,Game",//关键字
     "cacheZoneId":"cc868e8edce4027ad4a735741111111",//清理缓存用 cf区域 ID
     "cacheToken":"LNxRWH-MPMIGnp8qhyT8FUsjDRN6tdOnmaaaaaaa",//清理缓存用 cf API token
 	
-    "pageSize" : 5,//每页文章数
+    "pageSize" : 10,//每页文章数
     "recentlySize" : 6,//最近文章数
-    "readMoreLength":150,//阅读更多截取长度	
-    "cacheTime" : 60*60*24*0.5, //网页缓存时长(秒),建议=文章更新频率
+    "readMoreLength":-1,//阅读更多截取长度	
+    "cacheTime" : 60*60*24, //网页缓存时长(秒),建议=文章更新频率
     "themeURL" : "https://raw.githubusercontent.com/gdtool/cloudflare-workers-blog/master/themes/default2.0/", // 模板地址,以 "/"" 结尾
     "html404" : `<b>404</b>`,//404页面代码
     "codeBeforHead":``,//其他代码,显示在</head>前
